@@ -1,0 +1,15 @@
+{
+  "verification": {
+    "testNamePatterns": [".*verify_pack.*"],
+    "pathPatterns": ["**verify_pack**"]
+  },
+  "readOnlyFiles": [
+    "package.json",
+    "App.test.tsx"
+  ],
+  "hiddenFiles": [
+    "node_modules",
+    "node_modules/**",
+    "test-results.xml"
+  ]
+}
